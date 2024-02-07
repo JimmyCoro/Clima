@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/azul">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ciudades"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:background="@color/gris"
+        android:textColor="@color/white"
+        android:paddingVertical="5dp"
+        android:layout_gravity="top"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:id="@+id/btnCuenca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuenca"
+            android:backgroundTint="#91774F">
+        </Button>
+        <Button
+            android:id="@+id/btnAzoguez"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Azoguez">
+        </Button>
+        <Button
+            android:id="@+id/btnGuayaquil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guayaquil"
+            android:backgroundTint="#9C27B0">
+        </Button>
+        <Button
+            android:id="@+id/btnQuito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quito">
+        </Button>
+        <Button
+            android:id="@+id/btnLoja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loja"
+            android:backgroundTint="#35BEC3">
+        </Button>
+    </LinearLayout>
+
+</FrameLayout>
